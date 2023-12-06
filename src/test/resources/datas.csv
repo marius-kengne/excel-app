@@ -1,0 +1,8 @@
+"1,2,2"
+"2,2,4"
+"5,6,30"
+"7,7,4"
+
+@TestInstance(Lifecycle.PER_CLASS)
+pour ne pas déclarer les méthodes utilisant les annotations BeforeAll et AfterAll, il faut
+ajouter l'anotation @TestInstance(Lifecycle.PER_CLASS)
